@@ -1,0 +1,32 @@
+.slyder-wrap {
+  border: 1px solid #000;
+  width: 600px;
+  height: 300px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.sliderTask2 {
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sliderTask2 img {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  opacity: 1;
+  transition: all ease 1s;
+}
+
+.sliderTask2 .opacity0 {
+  opacity: 0;
+}
+
+.sliderBtnUp, .sliderBtnDown {
+  width: 50px;
+  height: 25px;
+  margin-top: 10px;
+}
